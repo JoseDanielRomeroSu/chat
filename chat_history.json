@@ -34,5 +34,9 @@
     {
         "role": "user",
         "content": "Dime una función en Python que devuelva true si un número es primo"
+    },
+    {
+        "role": "assistant",
+        "content": "¡Claro! Aquí te dejo una función en Python que devuelve `True` si un número es primo:\n```python\ndef es_primo(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n ** 0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n```\nExplicación:\n\n* La función `es_primo` toma un número entero `n` como parámetro.\n* Si `n` es menor o igual a 1, devuelve `False`, ya que los números primos deben ser mayores que 1.\n* El bucle `for` itera desde 2 hasta la raíz cuadrada de `n` (redondeada hacia arriba). Esto se debe a que un número primo solo puede tener divisores menores que su raíz cuadrada.\n* Dentro del bucle, se verifica si `n` es divisible por `i` (es decir, si `n % i == 0`). Si es así, devuelve `False`, ya que `n` no es primo.\n* Si el bucle completa sin encontrar un divisor, devuelve `True`, indicando que `n` es primo.\n\nPuedes probar la función con algunos ejemplos:\n```python\nprint(es_primo(25))  # False\nprint(es_primo(23))  # True\nprint(es_primo(37))  # True\nprint(es_primo(48))  # False\n```\nEspero que te sea útil. ¡Si tienes alguna pregunta o necesitas más ayuda, no dudes en preguntar!"
     }
 ]
