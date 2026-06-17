@@ -6,5 +6,9 @@
     {
         "role": "assistant",
         "content": "¡Hola! ¿Cómo estás? ¿En qué puedo ayudarte hoy?"
+    },
+    {
+        "role": "user",
+        "content": "Dime una función en Python que devuelva true si un número es primo"
     }
 ]
