@@ -10,5 +10,9 @@
     {
         "role": "user",
         "content": "que tal ?"
+    },
+    {
+        "role": "assistant",
+        "content": "¡Todo bien! Estoy aquí para ayudarte con cualquier pregunta o tema que desees discutir. ¿Quieres charlar un rato o tienes algo específico en mente?"
     }
 ]
