@@ -14,5 +14,9 @@
     {
         "role": "user",
         "content": "que tal ?"
+    },
+    {
+        "role": "user",
+        "content": "que tal ?"
     }
 ]
