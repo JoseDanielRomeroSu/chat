@@ -10,5 +10,9 @@
     {
         "role": "assistant",
         "content": "⚠️ Error: No se encontró la API_KEY_GROQ en las variables de entorno (.env)"
+    },
+    {
+        "role": "user",
+        "content": "hola"
     }
 ]
