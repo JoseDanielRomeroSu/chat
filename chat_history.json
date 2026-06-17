@@ -18,5 +18,9 @@
     {
         "role": "user",
         "content": "que tal ?"
+    },
+    {
+        "role": "user",
+        "content": "Dime una función en Python que devuelva true si un número es primo"
     }
 ]
